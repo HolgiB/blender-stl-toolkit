@@ -25,6 +25,15 @@ Repariert beschädigte/fehlerhafte STL-Dateien automatisch (Mesh-Repair via Blen
 python3 repair/batch_repair_stl_with_log_nocube.py <datei.stl>
 ```
 
+### `3mf-split/` — 3MF in Einzel-STLs zerlegen
+Trennt eine 3MF-Sammeldatei (z.B. Slicer-Export mit vielen Teilen) in **eine STL pro Objekt**.
+
+```bash
+python3 3mf-split/split_3mf.py <datei.3mf> --out ~/stl_out
+```
+
+Reines Python (stdlib) — kein Blender nötig. Details: [3mf-split/README.md](3mf-split/README.md).
+
 ## Voraussetzungen
 
 - Blender (headless: `blender --background --python ...`), Python 3
