@@ -42,7 +42,3 @@ Reines Python (stdlib) — kein Blender nötig. Details: [3mf-split/README.md](3
 ## Lizenz
 
 MIT — siehe [LICENSE](LICENSE).
-
-## Herkunft
-
-Zusammenführung von `blender-center-stl` und `Blender---Batch-fixing-STL-files`.
